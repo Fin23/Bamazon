@@ -20,12 +20,7 @@ connection.connect(function (err) {
 });
 
 function afterConnection() {
-    connection.query("SELECT * FROM 
-    
-    top5000   
-    
-    
-    ", function (err, res) {
+    connection.query("SELECT * FROM top5000   ", function (err, res) {
         if (err) throw err;
         console.log(res);
         // below will disconnect you from DB
