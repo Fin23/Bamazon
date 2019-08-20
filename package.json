@@ -2,7 +2,7 @@
   "name": "bamazon",
   "version": "1.0.0",
   "description": "using mysql and node.js to mimic an online store to buy and sell items",
-  "main": "bamazon.js",
+  "main": "bamazonCustomer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
