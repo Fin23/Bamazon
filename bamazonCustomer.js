@@ -99,7 +99,7 @@ function shopping(){
 
                             var newQuantity = res[0].stock_quantity - quantity;
                             connection.query(
-                            " UPDATE products SET stock_quantity  =  ' newQuantity'  WHERE id = ' res[0].id' ",
+                             "UPDATE products SET stock_quantity  = " + newQuantity + "  WHERE id = " + res[0].id, 
 
                              function(err, result){
                                     if (err) throw err;
