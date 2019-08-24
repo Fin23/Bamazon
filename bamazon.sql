@@ -18,7 +18,7 @@ CREATE TABLE `products`(
 use bamazonDB
    
   INSERT INTO `products` VALUES
-  (1, 'Apple',1,2.00,100),
+  (1, 'Apple', 1, 2.00, 100),
   (2, 'Orange', 1, 1.00, 90),
   (3, 'Bananas', 1, 1.50, 80),
   
