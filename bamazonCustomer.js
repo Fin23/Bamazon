@@ -20,7 +20,7 @@ var connection = mysql.createConnection({
 
 connection.connect();
 
-//beginning display when you rund node <file name>
+//beginning display when you run node <file name>
 
 var display = function(){
     connection.query("SELECT * FROM products   ", function (err, res) {
